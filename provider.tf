@@ -10,3 +10,11 @@ terraform {
 provider "aws" {
   # Configuration options
 }
+
+
+
+# ✅ Correct .gitignore (must have)
+# .terraform/
+# *.tfstate
+# *.tfstate.*
+# .terraform.lock.hcl
